@@ -18,7 +18,7 @@ def binary_search(arr, search):
 
 
 if __name__ == '__main__':
-    sorted(array)
+    sorted_array = sorted(array)
     value = 93
-    result = binary_search(array, value)
+    result = binary_search(sorted_array, value)
     print(result)
