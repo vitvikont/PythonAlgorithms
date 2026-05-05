@@ -2,7 +2,7 @@ array = [23, 12, 14, 32, 19, 74, 93, 8, 103, 24, 54]
 
 
 def binary_search(arr, search):
-    # Алгоритм бинарного поиска в массиве
+    # Алгоритм бинарного поиска в отсортированном массиве
     left = 0
     right = len(arr) - 1
 
@@ -18,6 +18,7 @@ def binary_search(arr, search):
 
 
 if __name__ == '__main__':
-    value = 101
+    sorted(array)
+    value = 93
     result = binary_search(array, value)
     print(result)
